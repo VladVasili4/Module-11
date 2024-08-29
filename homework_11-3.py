@@ -19,10 +19,10 @@ def introspection(obj):
     print(f'Функция = {inspect.isfunction(obj)}')
     print(f'Фрейм = {inspect.isframe(obj)}')
     print(f'Код = {inspect.iscode(obj)}')
-    print(f'Аттрибут Куб есть? {hasattr(obj, 'Cube')}')
-    print(f'Аттрибут Призма есть? {hasattr(obj, 'Prism')}')
+    print(f'Аттрибут Куб есть? {hasattr(obj, "Cube")}')
+    print(f'Аттрибут Призма есть? {hasattr(obj, "Prism")}')
     if hasattr(obj, 'Cube'):
-        print(f'Данные Аттрибута Куб :\n {getattr(obj, 'Cube')}')
+        print(f'Данные Аттрибута Куб :\n {getattr(obj, "Cube")}')
     print(f'Документация :\n {inspect.getdoc(obj)}')
     print(f'Комментарии :\n {inspect.getcomments(obj)}')
 
